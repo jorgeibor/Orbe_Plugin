@@ -1,0 +1,78 @@
+.divCategory{
+	position: absolute;
+	margin-right: 150px;
+}
+.divListCategory {
+    float: left;
+    width: 50%;
+    padding: 0px 20px;
+}
+.divListCategory span{
+	background-color: #CCCCCC;
+	border-bottom-left-radius: 20px 20px;
+	border-bottom-right-radius: 20px 20px;
+	border-top-left-radius: 20px 20px;
+	border-top-right-radius: 20px 20px;
+	display: inline-block;
+	margin-bottom: 3px;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 3px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 9px;
+	margin: 5px 5px;
+	border: 2px solid #e6e6e6;
+}
+
+.divCategory h1{
+	font-size: 12px;
+    padding: 5px 150px 5px 5px;
+	font-weight: bold;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+.divCategory span{
+	cursor: pointer;
+}
+.divCategory .h127{
+	background-color: #0574BA;
+	color: #FFF;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.divCategory .h134{
+	background-color: #D67D00;
+	color: #FFF;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.divCategory .h138{
+	background-color: #FFFF00;
+	color: #000;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.divCategory .h142{
+	background-color: #E30B24;
+	color: #FFF;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.divCategory .h149{
+	background-color: #009036;
+	color: #FFF;	
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+/* Estilos para fijar la columna de tipos de trabajos y para ponerlos absolutos */
+.module-fijo {
+	position: fixed;
+	margin-top: 100px;
+	top: 0;
+}
+.module-absolute {
+	position: absolute;
+    margin-bottom: 100px;
+    bottom: 0;
+}
+/*********************************************************************************/
