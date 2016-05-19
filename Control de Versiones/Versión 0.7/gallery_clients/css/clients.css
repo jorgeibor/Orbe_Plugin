@@ -1,0 +1,356 @@
+.categoryFamily{
+	background-color: #CCCCCC;
+	text-align: center;
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 11px;
+    margin: 5px 5px;
+}
+#divShortcode1{
+	width: 100%;
+	height: auto;
+}
+#divShortcode1 h2{
+	margin-left: 20px;
+}
+.divClient{
+	width: 100%;
+	height: auto;
+	padding-left: 20px;
+}
+.divClientsImage{
+	float: left;
+	max-width: 150px;
+	height: 250px;
+    margin-top: 45px;
+    margin-right: 38px;
+	border: 1px solid #e6e6e6;
+    padding: 1px;
+}
+
+.clientsImage{
+	width: 100%;
+	height: 60%;
+}
+/* Filtro blanco/negro y efecto zoom en las imagenes de los clientes */
+img.BandW { 
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+}
+.divClientsImage:hover{
+	cursor:pointer;
+}
+.divClientsImage:hover img{
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	-o-filter: grayscale(0%);
+}
+
+
+/*********************************************************/
+.filterbox{
+	display: block;
+	font-family: Akzidenz;
+    font-size: 20px;
+	padding: 15px;
+	background-color:#707173;
+	color: #FFF;
+    min-width: 300px;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.filterboxTittle{
+	height: 40px;
+}
+
+.tittleFilterBox{
+	float: left;
+    height: 100%;
+	width:90%;
+}
+
+.iconFilterBox{
+	float: right;
+    height: 100%;
+    width: 10%;
+	font-size: 30px;
+	cursor: pointer;
+	transition: all .2s ease-in-out;
+}
+.iconFilterBox:hover{
+	transform: scale(1.1);
+	cursor:pointer;
+}
+
+.filterboxForm{
+	display:none;
+	margin-top: 15px;
+}
+.filterboxForm select{
+	width: 100%;
+	color: #000;
+	font-size:15px;
+}
+.filterboxForm span{
+	height:100%;
+	padding: 10px;
+	width: 50%;
+}
+
+.fadebox {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index:1001;
+    -moz-opacity: 0.8;
+    opacity:.80;
+    filter: alpha(opacity=80);
+}
+
+.overboxHeader{
+    width: 100%;
+    height: 60px;
+    background-color: #707173;
+	border-bottom: 5px solid #000;
+}
+.overboxHeader span.contentOverBox{
+	float: left;
+	width: 90%;
+	font-size: 20px;
+	text-align: left;
+	color: #FFF;
+	padding-top: 15px;
+	padding-left: 5px;
+}
+.overboxHeader span.btnCloseOverBox{
+	float: right;
+    color: #000;
+    font-size: 35px;
+    padding: 10px 0px;
+    height: 100%;
+    width: 10%;
+    cursor: pointer;
+    color: #FFF;
+}
+.overboxContent{
+	width: 100%;
+	height: 90%;
+	overflow-y: auto;
+}
+.overboxImg {
+	width: 50%;
+	float: left;
+}
+.overboxImg .imageOverFlox{
+	width: 100%;
+	max-height: 100%;
+}
+
+.overboxDesc{
+	float: left;
+	max-height: 260px;
+	height: auto;
+}
+
+.overboxDesc h2{
+	height: 40px;
+}
+
+.overboxDesc .descClient{
+	padding: 0px 0px 20px 20px;
+	max-height: 200px;
+	overflow-y: auto;
+}
+
+.overboxJobs{
+	width: 100%;
+	clear: both;
+}
+
+.overboxJobs .listJobsCliente{
+	overflow-y: auto;
+	max-height: 200px;
+	height: auto;
+	margin: 0px 20px 0px 35px;
+}
+
+.overboxJobs .listJobsCliente span.jobCliente{
+	background-color: #E0E0E0;
+	color: #000;
+	font-weight: inherit;
+	padding: 5px;
+	margin: 10px;
+	display: -moz-box;
+}
+
+.paginacionDiv {
+    margin: 15px 0;
+	clear: left;
+	float: left;
+	padding-top: 25px;
+}
+
+.paginacionDiv ul {
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    display: inline-block;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px #666666;
+    padding-left: 0px;
+}
+.paginacionDiv li:first-child a {
+    border-left-width: 1px;
+    border-radius: 3px 0 0 3px;
+}
+.paginacionDiv .paginacionIzq{
+	font-size: 20px;
+}
+.paginacionDiv li {
+    display: inline;
+}
+.paginacionDiv a {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #DDDDDD;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    float: left;
+    line-height: 34px;
+    padding: 0 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.paginacionDiv .active a {
+    cursor: default;
+    font-weight: bold;   
+	background-color: #707173;
+    color: #fff;
+}
+.paginacionDiv .paginacionDer{
+	font-size: 20px;
+}
+.paginacionDiv li:last-child a {
+    border-radius: 0 3px 3px 0;
+}
+.divCategory {
+	display: none;
+}
+/* Cuando el ancho de la pantalla sea menor de 975px, desaparecera la columna de filtros de tipos de trabajo de la derecha y muestra el filtro adaptado para dispositivos móviles */
+
+@media (min-width: 975px) {
+	/*.fl-node-571872d7a05ad{
+		width: 59.95%;
+	}*/
+	.divCategory {
+		display: block;
+	}
+	.filterbox{
+		display: none;
+	}
+	
+}
+/********************************************************************************************************************************/
+
+@media (orientation:landscape) {
+	.overbox {
+		display: none;
+		position: fixed;
+		background-color: white;
+		top: 25%;
+		left: 25%;
+		width: 50%;
+		min-width: 330px;
+		min-height: 60%;
+		z-index: 1002;
+		overflow-y: auto;
+	}
+	.overboxJobs .listJobsCliente{
+		overflow-y: auto;
+		height: 200px;
+	}
+}
+@media (orientation:portrait) {
+	.overbox {
+		display: none;
+		position: fixed;
+		background-color: white;
+		top: 25%;
+		left: 25%;
+		width: 50%;
+		min-width: 330px;
+		z-index: 1002;
+		height: 70%;
+		overflow-y: auto;
+	}
+
+}
+
+@media (max-width: 1600px) {
+	.overboxHeader{
+		height: 115px;
+	}
+	.overboxImg{		
+		width: 100%;
+		float: left;
+	}
+
+	.overboxDesc{
+		width: 100%;
+	}
+
+	.overboxDesc .descClient {
+		padding: 0px 20px 20px 20px;
+		max-height: 200px;
+		overflow-y: auto;
+		width: 100%;
+	}
+	.overbox {
+		height: 70%;
+	}
+	.listJobsCliente {
+		margin: 0px 20px 0px 35px;
+		overflow-y: hidden;
+		height: auto;
+	}
+}
+
+@media (max-width: 582px) {
+	.overbox {
+		left: 5%;
+	}
+
+	.listJobsCliente span.jobCliente{
+		display: block;
+	}
+}
+
+@media (max-width: 435px) {
+	.divClientsImage{
+		margin-left: 25%;
+	}
+}
