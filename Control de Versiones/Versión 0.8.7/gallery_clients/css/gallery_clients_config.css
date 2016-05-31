@@ -1,0 +1,56 @@
+
+div#gclients-container {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 30px 5px 10px 0;
+    position: relative;
+    z-index: 1;
+    direction: ltr;
+    min-width: 560px;
+}
+div#gclients-header {
+    position: relative;
+    padding: 1px 1px 10px 1px;
+    margin-top: 50px;
+}
+div#gclients-logo {
+    position: relative;
+    margin: 0 0px 0 15px;
+    font-size: 48px;
+    text-shadow: 1px 1px 4px #000000;
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    color: #ffffff;
+    float: left;
+    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-color: #000;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+div#gclients-header h2 {
+    font: italic 24px/35px Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    color: #000;
+    padding: 20px 20px 0 20px;
+}
+
+.panel {
+    margin-right: 10px;
+    min-width: 390px;
+	margin-left: 20px;
+}
+
+.panel-config{
+    height: 500px;
+    overflow-y: auto;
+}
+
+.container-fluid{
+	height: 400px;
+}
+
+.titleConf{
+	font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+	font-size: 18px;
+}
